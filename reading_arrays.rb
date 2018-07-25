@@ -1,11 +1,11 @@
-student_names = []
-student_names[0] = "Adele"
-student_names[1] = "Beyoncé"
-student_names[2] = "Cardi B"
-student_names[3] = "Lady Gaga"
-student_names[4] = "Nicki Minaj"
-student_names[5] = "Rihanna"
-
+STUDENT_NAMES = [
+   "Adele",
+   "Beyoncé",
+   "Cardi B",
+   "Lady Gaga",
+   "Nicki Minaj",
+   "Rihanna",
+]
 
 student_names do |student_names|
   puts "#{student_names[0]}"
