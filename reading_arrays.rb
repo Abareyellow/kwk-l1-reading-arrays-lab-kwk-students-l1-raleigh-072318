@@ -7,9 +7,8 @@ STUDENT_NAMES = [
    "Rihanna",
 ]
 
-student_names do |student_names|
-  puts "#{student_names[0]}"
-end
+def first_student_by_index
+  STUDENT_NAMES
 
 def fourth_student_by_index
   # Write a solution that returns the first student in the array student_names
